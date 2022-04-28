@@ -1,7 +1,7 @@
 $font-stack: Poppins, sans-serif;
 $font-thin: 400;
-$font-regular: 500;
-$font-thick: 600;
+$font-medium: 500;
+$font-regular: 600;
 $font-bold: 700;
 
 $primary-red: hsl(0, 100%, 74%);
@@ -13,5 +13,5 @@ $neutral-grayish-blue: hsl(246, 25%, 77%);
 body {
   font: 100% $font-stack;
   color: $primary-red;
-  font-weight: $font-thin;
+  font-weight: $font-medium;
 }
