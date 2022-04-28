@@ -1,7 +1,84 @@
-body {
+html, body {
   font: 100% Poppins, sans-serif;
-  color: hsl(0deg, 100%, 74%);
-  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0deg, 100%, 74%);
+}
+
+.container {
+  border: solid yellow 3px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1-intro {
+  border: solid green 3px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-right: 20px;
+  color: rgb(244, 244, 244);
+}
+
+#text-intro {
+  border: solid white 2px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#text-summary {
+  border: solid black 2px;
+  margin-top: -5px;
+}
+
+.box2-form {
+  border: solid rgb(113, 236, 123) 3px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+#button-trial {
+  padding: 1%;
+  border: solid goldenrod 2px;
+  border-radius: 10px;
+  background-color: hsl(248deg, 32%, 49%);
+  color: rgb(244, 244, 244);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#button-trial-title {
+  font-weight: 600;
+}
+
+#button-trial-summary {
+  padding-left: 4px;
+  font-weight: 400;
+  color: hsl(246deg, 25%, 77%);
+}
+
+.form {
+  border: solid rgb(209, 41, 255) 4px;
+  background-color: white;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+input {
+  padding: 2%;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=output.css.map */
