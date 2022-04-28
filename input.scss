@@ -19,7 +19,7 @@ html, body {
 }
 
 .container {
-  border: solid yellow 3px;
+  // border: solid yellow 3px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -29,7 +29,7 @@ html, body {
 
 }
 .box1-intro {
-  border: solid green 3px;
+  // border: solid green 3px;
   display: flex;
   flex-direction: column;
   width: 450px;
@@ -37,27 +37,36 @@ html, body {
   color: rgb(244, 244, 244);
 }
 #text-intro {
-  border: solid white 2px;
+  // border: solid white 2px;
   font-size: 45px;
   font-weight: 700;
 }
 #text-summary {
-  border: solid black 2px;
+  // border: solid black 2px;
   margin-top: -5px;
 }
 .box2-form {
-  border: solid rgb(113, 236, 123) 3px;
+  // border: solid rgb(113, 236, 123) 3px;
   display: flex;
   flex-direction: column;
   width: 450px;
 }
 .form {
+  // border: solid rgb(209, 41, 255) 4px;
+  background-color: white;
+  padding: 6%;
+  border-radius: 10px;
+  font-family: $font-stack;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  
 }
 #button-trial {
   padding: 1%;
-  border: solid goldenrod 2px;
+  // border: solid goldenrod 2px;
   border-radius: 10px;
   background-color: $accent-blue;
   color:rgb(244, 244, 244);
@@ -73,13 +82,60 @@ html, body {
   font-weight: $font-thin;
   color: $neutral-grayish-blue;
 }
-.form {
-  border: solid rgb(209, 41, 255) 4px;
-  background-color: white;
-  padding: 5%;
-  border-radius: 10px;
-}
+
 input {
-  padding: 2%;
-  margin-bottom: 5px;
+  // border: solid gold 2px;
+  padding: 3.2%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 360px;
+}
+#submit {
+  width: 395px;
+  background-color: $primary-green;
+  color: white;
+}
+.inputfield {
+  padding-left: 6%;
+}
+.form-last-texts {
+  // border: solid blue 2px;
+  font-size: 10px;
+  width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#form-last-texts-1 {
+  color: $neutral-grayish-blue;
+}
+#form-last-texts-2 {
+  // border: solid black 2px;
+  color: rgb(242, 94, 94);
+  padding: 4px;
+}
+@media screen and (max-width: 540px) {
+  .container {
+      width: 400px;
+      flex-direction: column;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .container {
+      width: 600px;
+      flex-direction: column;
+  }
+  // .box1-intro {
+  //   border: solid black 2px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   margin-top: 15px;
+    
+  // }
 }
